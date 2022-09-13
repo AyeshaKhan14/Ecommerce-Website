@@ -1,0 +1,113 @@
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    height:100px;
+    margin-top: 100px;
+    background-color: rgb(9, 177, 177);
+}
+
+.part2{
+    /* border:2px solid black; */
+    height:350px;
+    display: flex;
+  
+}
+.box1,.box2,.box3,.box4{
+    /* border:2px solid red; */
+    width:13%;
+    height:300px;
+
+}
+.box4{
+    /* border:2px solid red; */
+    width:23%;
+    height:300px;
+
+}
+.box2>div>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(173, 168, 168);
+    font-size: 18px;
+}
+
+.box1>div>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(173, 168, 168);
+    font-size: 18px;
+}
+
+.box3>div>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(173, 168, 168);
+    font-size: 18px;
+}
+.box4>div>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(173, 168, 168);
+    font-style: calc();
+    font-size: 18px;
+}
+
+.boxInput>input{
+    width:150%;
+    height:45px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boxInput{
+display: flex;
+}
+.boxInput>button{
+    height:50px;
+    border:none;
+    width:180px;
+    background-color: orangered;
+
+}
+
+
+.newbox{
+    display: block;
+    background-color: rgb(2, 56, 56);
+}
+
+.copyryt{
+    /* border:2px solid red; */
+    height:50px;
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.fontSize{
+    /* border:2px solid red; */
+    width:25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.youtube{
+    font-size: 40px;
+    color:red;
+}
+.fb{
+    font-size: 35px;
+}
+.twitter{
+    font-size: 35px;
+}
+.gogle{
+    font-size: 30px;
+    color:red;
+}
+
+.play{
+    font-size: 30px;
+    color:black;
+}
+.like{
+    font-size: 30px;
+    color:black;
+}

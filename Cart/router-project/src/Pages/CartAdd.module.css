@@ -1,0 +1,19 @@
+.btn>button{
+    width:55%;
+    background-color: red;
+    height:40px;
+    color:white;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1em sans-serif;
+    font-style: italic;
+}
+.newdiv{
+    height:300px;
+    border:2px solid navy
+}

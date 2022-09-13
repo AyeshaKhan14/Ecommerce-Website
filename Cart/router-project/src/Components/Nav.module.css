@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height:60px;
+    align-items: center;
+    background-color: rgb(2, 56, 56);
+   
+}
+.Shppgcart{
+    font-size: 35px;
+    /* color: rgb(13, 13, 13); */
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+   font-family: sans-serif;
+}
+.catdata{
+  
+    display: flex;
+    
+
+}
+.busket{
+    border:2px solid red;
+    width:30px;
+    font-size: 18px;
+    color:white;
+    height:20px;
+    border-radius: 50%;
+    margin-top: -5px;
+    background-color: red;
+}
+
+.travel{
+    display: flex;
+    /* border:2px solid brown; */
+    margin-right: 40px;
+   gap:40px;
+   align-items: center;
+
+}
+.travel>button{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width:100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   cursor: pointer;
+   height:40px;
+   border-radius: 8px;
+}
+.logo>img{
+    height:60px;
+    border-radius: 50%;
+}
+.myNext{
+    display: flex;
+    /* border:2px solid brown; */
+    margin-left: 40px;
+   gap:40px;
+   align-items: center;
+}

@@ -1,0 +1,35 @@
+.grid{
+    /* border:2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    width:90%;
+    margin:auto;
+    gap:20px;
+    margin-top: 7px;
+    column-gap: 40px;
+    
+}
+body{
+    background-color: rgb(204, 244, 244);
+}
+.grid>div>img{
+   width:280px;
+    height:250px;
+}
+
+.grid>div{
+    width:100%;
+    height:500px;
+    /* border:2px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(231, 243, 243);
+    padding:5px;
+    margin-top: 7px;
+    gap:40px;
+
+}
+
+h1{
+    font-style: italic;
+}
